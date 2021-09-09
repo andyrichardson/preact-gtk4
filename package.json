@@ -1,0 +1,21 @@
+{
+  "name": "gtk-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && gjs dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "preact": "^10.5.14",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
